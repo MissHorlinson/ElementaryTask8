@@ -5,10 +5,12 @@ import model.Fibonacci;
 import java.util.ArrayList;
 
 public class FibonacciService {
+
     private  ArrayList<Integer> fibonacci = new ArrayList<Integer>();
 
     public ArrayList length(Fibonacci model) {
         int f0 = 0;
+        fibonacci.add(f0);
         int f1 = 1;
         fibonacci.add(f1);
         int fn;

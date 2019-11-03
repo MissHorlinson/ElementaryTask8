@@ -1,6 +1,7 @@
 package model;
 
 public class Fibonacci {
+
     private int length;
     private int diapasonFirst;
     private int diapasonLast;
@@ -32,9 +33,7 @@ public class Fibonacci {
         this.diapasonFirst = diapasonFirst;
     }
 
-    public int getDiapasonLast() {
-        return diapasonLast;
-    }
+    public int getDiapasonLast() { return diapasonLast; }
 
     public void setDiapasonLast(int diapasonLast) {
         this.diapasonLast = diapasonLast;
